@@ -66,7 +66,7 @@ try {
         });
 
        var data = new google.visualization.DataTable();
-		data.addColumn('date', 'Zeit');
+		data.addColumn('datetime', 'Zeit');
 		data.addColumn('number', 'HR');
 		data.addRows(<?= $output?>);
 
